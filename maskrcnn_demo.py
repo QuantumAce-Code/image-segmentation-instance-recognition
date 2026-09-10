@@ -14,6 +14,7 @@ import shutil
 # Import the MaskRCNNSegmentation class from the main implementation
 from mask_rcnn_segmentation import MaskRCNNSegmentation
 
+# The size of the dataset isn't too large
 def download_coco_targeted(download_dir='datasets', num_images=6):
     """
     Download a targeted selection of COCO images with specific categories
