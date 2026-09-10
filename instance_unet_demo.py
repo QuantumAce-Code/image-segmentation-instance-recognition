@@ -12,6 +12,9 @@ from scipy import ndimage
 # Import from main file
 from unet_model import InstanceUNet, download_oxford_pet_dataset, process_instances
 
+
+# Prints the model's summary
+
 def print_model_summary(model):
     """Print model architecture summary to verify structure"""
     total_params = sum(p.numel() for p in model.parameters())
